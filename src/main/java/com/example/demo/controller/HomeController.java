@@ -21,5 +21,11 @@ public class HomeController {
         return model;
     }
 
+    @GetMapping("/readme")
+    public ModelAndView readme(){
+
+        ModelAndView model = new ModelAndView("readme");
+        return model;
+    }
 
 }
